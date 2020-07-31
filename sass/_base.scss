@@ -1,0 +1,61 @@
+// variables, mixins, and functions 
+
+// color palettes
+
+// palette one
+// $primary-color: #58B4AE;
+// $secondary-color: #FFE277;
+// $tertiary-color: #FFB367;
+// $tertiary-col-one: #FFE2BC;
+
+// // palette two
+// $primary-color: #F9F9F9;
+// $secondary-color: #FFE0AC;
+// $tertiary-color: #FFACB7;
+// $tertiary-col-one: #6886C5;
+
+// // palette three
+// $primary-color: #42240C;
+// $secondary-color: #C81912;
+// $tertiary-color: #F64B3C;
+// $tertiary-col-one: #FDBA9A;
+
+// color functions
+
+// Palette one function
+$primary-color: #3273DB;
+$primary-light: lighten($primary-color, 20%);
+$primary-dark: darken($primary-color, 20%);
+$secondary-color: adjust-hue($primary-light, 90deg);
+
+// // Palette two function
+// $primary-color: #58B4AE;
+// $primary-light: lighten($primary-color, 20%);
+// $primary-dark: darken($primary-color, 20%);
+// $secondary-color: adjust-hue($primary-light, 90deg);
+
+// // Palette three function
+// $primary-color: #FFE0AC; //<<= secondary colorof palette two
+// $primary-light: lighten($primary-color, 20%);
+// $primary-dark: darken($primary-color, 20%);
+// $secondary-color: adjust-hue($primary-light, 90deg);
+
+// // Palette four function
+// $primary-color: #42240C;
+// $primary-light: lighten($primary-color, 20%);
+// $primary-dark: darken($primary-color, 20%);
+// $secondary-color: adjust-hue($primary-light, 90deg);
+
+
+// fonts
+$font-face: 'Nunito', sans-serif;
+$text-font: 'Montserrat', sans-serif;
+
+// maps   syntaxt for using: ==font-weight: map-get($font-weights, "bold"==)
+$font-weights: (
+  "exLight": 200,
+  "light": 300,
+  "regular": 400,
+  "medium": 600,
+  "bold":  800,
+);

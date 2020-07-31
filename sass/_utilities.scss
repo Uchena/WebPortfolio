@@ -1,0 +1,74 @@
+.btn {
+    
+    background-image: linear-gradient($primary-light, $primary-color);
+    color: #000;
+    padding: 0.8rem;
+    border-radius: 1.2rem;
+    font-weight: map-get($font-weights, 'light' );
+    font-size: 1rem;
+    margin: 0 auto;
+    width: 8rem;
+}
+
+.title {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+    margin: 1px 0 1.3px;
+}
+
+.text-span {
+    color: $primary-color;
+}
+
+.lineLeft {
+    border: 3px solid $primary-color;
+    background-color: $primary-color;
+    border-radius: 1rem;
+    width: 100px;
+}
+
+.lineRight {
+    border: 3px solid $primary-color;
+    background-color: $primary-color;
+    border-radius: 1rem;
+    width: 100px;
+    text-align: right;
+    margin: 0 0 0 auto;
+}
+
+small {
+    color: rgb(139, 139, 139);
+}
+
+// backgorunds
+body {
+    background: url(/dist/images/waveOne.svg), url(/dist/images/waveTwo.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+
+}
+
+.area-one {
+    background: url(/dist/images/blobOne.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.areaTwo {
+    background: url(/dist/images/blobTwo.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.areaFour {
+    background: url(/dist/images/blobThree.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.areaFive {
+    background: url(/dist/images/blobOne.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}

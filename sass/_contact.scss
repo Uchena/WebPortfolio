@@ -1,0 +1,98 @@
+.contact {
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 80%;
+    max-width: 900px;
+    padding: 1rem;
+    line-height: 1.7rem;
+    height: auto;
+    // border: 2px solid red;
+
+    & .message {
+        margin-bottom: 1rem;
+    }
+
+    & .form-container {
+      // border: 1px solid red;
+      padding: 1rem 0 2rem;
+      max-width: 450px;
+
+      & .form-group {
+        /*   border: 1px solid pink; */
+          margin-bottom: .5rem;
+        }
+      
+      }
+    & .contact-image {
+        width: 100%;
+        position: absolute;
+        top: 325px;
+        left: 800px;
+
+        & img {
+          height: 400px;
+          width: 400px;
+        }
+        }
+}
+
+.form-group label {
+    display: block;
+  }
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: .6rem 0 .6rem .5rem;
+    transition: 1s;
+
+    &:hover {
+      border: 2px solid $primary-light;
+    }
+
+    &:focus {
+      border: 2px solid $primary-color;
+      background-color: #f3f3f3;
+    }
+  }
+  
+.form-container input[type="submit"] {
+    width: 100%;
+  }
+
+.form-group input, 
+input[type="submit"],
+textarea {
+  border: 1px solid $primary-light;
+  border-radius: 0 .5rem .5rem 0;
+}
+
+input[type="submit"] {
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .8rem;
+  background-image: linear-gradient($primary-light, $primary-color);
+  cursor: pointer;
+}
+
+// screensize 500px and lower
+@media screen and (max-width: 500px) {
+  .contact {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    & .contact-image {
+      display: none;
+    }
+  }
+  .contact-heading {
+    font-size: 1.2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}

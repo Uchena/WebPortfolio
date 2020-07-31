@@ -1,0 +1,19 @@
+@import 'base';
+@import 'config';
+@import 'utilities';
+@import 'components';
+@import 'project';
+@import 'foot';
+@import 'mediaQuery';
+@import 'contact';
+@import 'menu';
+
+@font-face {
+    src: url(/dist/fonts/Reey-Regular.otf);
+    font-family: Reey;
+}
+
+.jamaican {
+    font-family: Reey;
+    color: goldenrod;
+}

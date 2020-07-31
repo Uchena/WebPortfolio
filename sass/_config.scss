@@ -1,0 +1,68 @@
+//defaults for all 'uchenamiller.com' sites
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $text-font;
+}
+body {
+    color: #222;
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: $font-face;
+    line-height: 1.2rem;
+}
+
+p {
+    font-family: $text-font;
+    line-height: 150%;
+    font-size: 1.1rem;
+}
+
+li {
+    list-style: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+a {
+    text-decoration: none;
+    font-family: $font-face;
+}
+
+
+.navbar__logo a{
+    font-family: Reey, cursive;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+.lead {
+    color: #333;
+}
+
+img {
+    display: block;
+    width: 100%;
+    // width: 200px;
+    // height: 200px;
+}
+
+.areaTwo, 
+.areaThree,
+.areaFour,
+.areaFive, 
+.contact {
+    height: 100vh;
+    width: 75%; 
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.fa-twitter { color: #1da1f2;}
+.fa-github { color: #24292e;}
+.fa-dev { color: #08090a;}
+.fa-telegram { color: #29a7d9};
